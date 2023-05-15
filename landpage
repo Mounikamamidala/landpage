@@ -1,0 +1,73 @@
+# landpage
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ice Cream Land</title>
+  <link rel="stylesheet" type="text/css" href="ice.css">
+</head>
+<body>
+  <header>
+    <h1>Ice Cream Land</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flavors</a></li>
+        <li><a href="#">Specials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="container">
+      <h2>Welcome to Ice Cream Land</h2>
+      <p>Explore our delicious and creamy ice cream flavors.</p>
+      <a href="#flavors" class="btn">View Flavors</a>
+    </div>
+  </section>
+
+  <section id="flavors" class="flavors-section">
+    <div class="container">
+      <h3>Our Flavors</h3>
+      <div class="flavor">
+        <img src="D:\web\choclate.jpg" alt="Chocolate Ice Cream">
+        <h4>Chocolate</h4>
+        <p>A classic favorite with rich and indulgent flavor.</p>
+      </div>
+      <div class="flavor">
+        <img src="D:\web\strawberry.jpg" alt="Strawberry Ice Cream">
+        <h4>Strawberry</h4>
+        <p>Deliciously sweet and refreshing strawberry goodness.</p>
+      </div>
+      <div class="flavor">
+        <img src="file:///D:/web/venilla.webp" alt="Vanilla Ice Cream">
+        <h4>Vanilla</h4>
+        <p>A smooth and creamy vanilla delight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="specials-section">
+    <div class="container">
+      <h3>Specials</h3>
+      <div class="special">
+        <h4>Summer Delight</h4>
+        <p>Enjoy a refreshing combination of mango, pineapple, and coconut.</p>
+      </div>
+         <div class="special">
+        <h4>Chocolate Overload</h4>
+        <p>Indulge in layers of chocolate ice cream, fudge, and brownie chunks.</p>
+      </div>
+      <div class="special">
+        <h4>Fruit Fusion</h4>
+        <p>Experience the explosion of mixed berries and tropical fruits.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Ice Cream Land. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
